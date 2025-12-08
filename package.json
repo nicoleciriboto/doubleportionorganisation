@@ -1,5 +1,5 @@
 {
-      "name": "Minimalistic Charity Website",
+      "name": "minimalistic-charity-website",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -54,7 +54,7 @@
             "@types/react": "^19.2.7",
             "@types/react-dom": "^19.2.3",
             "@vitejs/plugin-react-swc": "^3.10.2",
-            "vite": "^6.4.1"
+            "vite": "^7.2.7"
       },
       "scripts": {
             "dev": "vite",
