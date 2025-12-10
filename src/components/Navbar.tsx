@@ -45,7 +45,7 @@ export function Navbar() {
             ))}
             <Link
               to="/contact"
-              className="bg-[#6D00C0] text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all"
+              className="bg-[#6D00C0] text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all mt-3 sm:mt-2"
             >
               Donate Now
             </Link>
