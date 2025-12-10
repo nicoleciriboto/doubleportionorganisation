@@ -71,7 +71,9 @@ export function Home() {
                 >
                   Donate Now
                 </Link>
-                <Link to="/about" className="cursor-pointer border-2 border-[#6D00C0] text-[#6D00C0] px-8 py-3 rounded-full hover:bg-[#6D00C0] hover:text-white transition-all">
+                <Link to="/about" 
+                className="cursor-pointer border-2 border-[#6D00C0] text-[#6D00C0] px-8 py-3 rounded-full hover:bg-[#6D00C0] hover:text-white transition-all flex items-center justify-center"
+                >
                   Learn More
                 </Link>
               </div>
