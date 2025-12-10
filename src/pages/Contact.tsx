@@ -164,11 +164,17 @@ export function Contact() {
 
                 <button
                   type="submit"
-                  className="cursor-pointer w-full bg-[#6D00C0] text-white px-8 py-4 rounded-full hover:bg-opacity-90 transition-all flex items-center justify-center space-x-2"
+                  disabled={isSending}
+                  className={`w-full cursor-pointer bg-[#6D00C0] text-white px-8 py-4 rounded-full transition-all flex items-center justify-center space-x-2 ${isSending ? 'opacity-60 cursor-not-allowed' : 'hover:bg-opacity-90'}`}
                 >
-                {isSending ? "Sending..." : ""}
-                  <span>Send Message</span>
-                  <Send size={20} />
+                  {isSending ? (
+                    <span>Sending...</span>
+                  ) : (
+                    <>
+                      <span>Send Message</span>
+                      <Send size={20} />
+                    </>
+                  )}
                 </button>
               </form>
             </motion.div>
