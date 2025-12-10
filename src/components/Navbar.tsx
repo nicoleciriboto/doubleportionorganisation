@@ -88,7 +88,7 @@ export function Navbar() {
               <Link
                 to="/contact"
                 onClick={() => setIsOpen(false)}
-                className="w-full bg-[#6D00C0] text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all"
+                className="w-full bg-[#6D00C0] text-white px-6 py-2 rounded-full hover:bg-opacity-90 transition-all mt-4"
               >
                 Donate Now
               </Link>
